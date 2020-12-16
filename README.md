@@ -1,3 +1,8 @@
+# Shortcuts
+
+- docker build . -t my_first_xdd_app
+- docker run -it -u $(id -u) -v ~/tfhub_modules/:/tfhub_modules/ -v $(pwd)/input/:/input/ -v $(pwd)/output:/output/ my_first_xdd_app bash
+
 # Objective
 This document describes a recipe to create a docker image, containing all required software, in order for a text-datamining application to be deployed against the xDD corpus.
 
